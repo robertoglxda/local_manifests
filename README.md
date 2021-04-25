@@ -11,14 +11,14 @@ The ROM supports Lazy kernel (see 'gl/lazy/custom-develop' branch on the kernel 
 https://github.com/ederekun/lazy_kernel_op5-t/tree/custom-develop
 
 # Build instructions
-Follow the instructions from Google to setup a machine to build Android 11:
+Follow the instructions from Google to setup a machine to build Android:
 https://source.android.com/setup/build/initializing
 
 Then, sync all the sources:
 ```
 $ repo init -u https://android.googlesource.com/platform/manifest -b master
 $ cd .repo
-$ git clone https://github.com/robertosartori/local_manifests.git local_manifests
+$ git clone --single-branch --branch master/gl https://github.com/robertosartori/local_manifests.git local_manifests
 $ cd ..
 $ repo sync -c --no-clone-bundle --no-tags
 ```
