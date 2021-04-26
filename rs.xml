@@ -35,7 +35,7 @@
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
   </project>
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" revision="master/gl/lineage-18.1-caf-msm8998" remote="githubgl" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" revision="gl/lineage-18.1-caf-msm8998" remote="githubgl" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" revision="master/gl/lineage-18.1-caf-msm8998" remote="githubgl" />
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" revision="lineage-18.1-caf-msm8998" remote="githubgl" />
 
   <project path="hardware/qcom/thermal" name="hardware_qcom_thermal" revision="lineage-18.1" remote="githubgl" />
